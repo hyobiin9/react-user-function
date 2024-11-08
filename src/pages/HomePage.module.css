@@ -3,7 +3,7 @@
 }
 
 .Heading {
-  color: #1D1D1D;
+  color: #1d1d1d;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -1.6px;
@@ -12,7 +12,7 @@
 
 .Heading .accent {
   display: inline-block;
-  color: #6D00E1;
+  color: #6d00e1;
   font-weight: 900;
   position: relative;
 }
@@ -26,11 +26,11 @@
   width: 111px;
   height: 9px;
   border-radius: 9999px;
-  background: rgba(123, 0, 255, 0.20);
+  background: rgba(123, 0, 255, 0.2);
 }
 
 .Description {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: -0.4px;
@@ -47,23 +47,23 @@
   height: 600px;
 }
 
-.Hero>img {
+.Hero > img {
   user-select: none;
   position: absolute;
 }
 
-.Hero>img:nth-child(1),
-.Hero>img:nth-child(3) {
+.Hero > img:nth-child(1),
+.Hero > img:nth-child(3) {
   min-width: 360px;
   width: 30%;
 }
 
-.Hero>img:nth-child(1) {
+.Hero > img:nth-child(1) {
   top: 0;
   left: 0;
 }
 
-.Hero>img:nth-child(2) {
+.Hero > img:nth-child(2) {
   min-width: 435px;
   width: 33%;
   top: -5px;
@@ -72,7 +72,7 @@
   z-index: 1;
 }
 
-.Hero>img:nth-child(3) {
+.Hero > img:nth-child(3) {
   top: 0;
   right: 0;
 }

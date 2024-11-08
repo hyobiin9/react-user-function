@@ -6,3 +6,13 @@ Content-Type: application/json
   "email":"codeit1@codeit.com",
   "password": "123123123"
 }
+
+###
+
+POST https://learn.codeit.kr/api/link-service/auth/login
+Content-Type: application/json
+
+{
+  "email":"codeit1@codeit.com",
+  "password": "123123123"
+}
